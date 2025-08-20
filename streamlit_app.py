@@ -260,7 +260,7 @@ def show_chat():
                 process_input(button_text)
     
     elif st.session_state.show_input:
-        user_input = st.text_input("chat", placeholder="Enter your response here...", key="input_box")
+        user_input = st.text_input("chat", placeholder="Enter your response here...", key="input_box", label_visibility="collapsed")
         
         if user_input and user_input.strip():
             if st.button("Send", key="send_input"):
