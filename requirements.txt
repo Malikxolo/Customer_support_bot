@@ -1,0 +1,14 @@
+langchain
+langgraph
+langchain-groq
+langchain-community
+fastapi
+python-dotenv
+pydantic
+datetime
+asyncio
+langchain-huggingface
+pymongo
+redis
+python-dateutil
+langchain-google-genai
